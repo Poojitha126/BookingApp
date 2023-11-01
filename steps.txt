@@ -1,0 +1,11 @@
+Booking App
+
+
+https://www.youtube.com/watch?v=k3Vfj-e1Ma4
+
+npm init -y -> to initiate node application
+npm i express -> install express framework
+npm i nodemon dotenv mongoose bcryptjs jsonwebtoken cookie-parser-> autorestart the application after changes
+package.json->type:module 
+			-> scripts-> start: nodemon index.js
+npm start -> start application

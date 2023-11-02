@@ -3,7 +3,7 @@ import "./featured.css";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "http://localhost:8800/api/hotels/countByCity?cities=Italy,Paris,London"
+    "https://bookingapp-rim0.onrender.com/api/hotels/countByCity?cities=Italy,Paris,London"
   );
 
   return (

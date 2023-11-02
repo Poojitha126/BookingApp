@@ -18,7 +18,7 @@ const List = () => {
   const [max, setMax] = useState(undefined);
 
   const { data, loading, error, reFetch } = useFetch(
-    `http://localhost:8800/api/hotels?city=${destination}&min=${min || 0 }&max=${max || 30000}`
+    `https://bookingapp-rim0.onrender.com/api/hotels?city=${destination}&min=${min || 0 }&max=${max || 30000}`
   );
 
   const handleClick = () => {
